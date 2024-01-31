@@ -107,4 +107,15 @@
 
     <!-- Package that contains udfps animation customization or empty to disable -->
     <string name="config_udfps_animation_customization_package">org.derpfest.overlay.customization.udfps.animations</string>
+
+    <!-- Pop-Up View -->
+    <bool name="config_popUpView_defaultKeepMuteInMini">true</bool>
+    <integer name="config_popUpView_defaultSingleTapAction">1</integer>
+    <integer name="config_popUpView_defaultDoubleTapAction">2</integer>
+    <bool name="config_popUpView_defaultNotificationPortJump">false</bool>
+    <bool name="config_popUpView_defaultNotificationLandJump">true</bool>
+    <bool name="config_popUpView_defaultSettingsJump">true</bool>
+    <bool name="config_popUpView_defaultShareJump">true</bool>
+    <string-array name="config_popUpView_forceUpdateDpiPackages" translatable="false">
+    </string-array>
 </resources>

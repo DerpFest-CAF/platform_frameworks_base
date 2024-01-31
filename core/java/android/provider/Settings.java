@@ -6746,6 +6746,44 @@ public final class Settings {
         public static final String ISLAND_NOTIFICATION_NOW_PLAYING = "island_notification_now_playing";
 
         /**
+         * Whether to keep mute in mini-window
+         * @hide
+         */
+        public static final String POP_UP_KEEP_MUTE_IN_MINI = "pop_up_keep_mute_in_mini";
+
+        /**
+         * Pop-Up Window dimmer view single tap action
+         * 0: Enter pinned-window mode   1: Exit Pop-Up View   2: No action
+         * @hide
+         */
+        public static final String POP_UP_SINGLE_TAP_ACTION = "pop_up_single_tap_action";
+
+        /**
+         * Pop-Up Window dimmer view double tap action
+         * 0: Enter pinned-window mode   1: Exit Pop-Up View   2: No action
+         * @hide
+         */
+        public static final String POP_UP_DOUBLE_TAP_ACTION = "pop_up_double_tap_action";
+
+        /**
+         * Whether to use Pop-Up Window for notification app jump in portrait mode
+         * @hide
+         */
+        public static final String POP_UP_NOTIFICATION_JUMP_PORTRAIT = "pop_up_notification_jump_portrait";
+
+        /**
+         * Whether to use Pop-Up Window for notification app jump in landscape mode
+         * @hide
+         */
+        public static final String POP_UP_NOTIFICATION_JUMP_LANDSCAPE = "pop_up_notification_jump_landscape";
+
+        /**
+         * Blacklist apps that disallow from opening notification in Pop-Up View
+         * @hide
+         */
+        public static final String POP_UP_NOTIFICATION_BLACKLIST = "pop_up_notification_blacklist";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
