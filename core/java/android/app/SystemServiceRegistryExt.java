@@ -16,11 +16,11 @@ import org.nameless.view.AppFocusManager;
 import org.nameless.view.IAppFocusManagerService;
 
 /** @hide */
-public class SystemServiceRegistryExt {
+class SystemServiceRegistryExt {
 
     private SystemServiceRegistryExt() {}
 
-    public static void registerExtServices() {
+    static void registerExtServices() {
         registerService(ContextExt.APP_FOCUS_MANAGER_SERVICE, AppFocusManager.class,
                 new CachedServiceFetcher<AppFocusManager>() {
             @Override
